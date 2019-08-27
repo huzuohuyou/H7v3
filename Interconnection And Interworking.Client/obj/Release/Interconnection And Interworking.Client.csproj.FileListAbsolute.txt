@@ -1,0 +1,7 @@
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\bin\Release\Interconnection And Interworking.Client.exe.config
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\bin\Release\Interconnection And Interworking.Client.exe
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\bin\Release\Interconnection And Interworking.Client.pdb
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\obj\Release\Interconnection And Interworking.Client.csprojAssemblyReference.cache
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\obj\Release\Interconnection And Interworking.Client.csproj.CoreCompileInputs.cache
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\obj\Release\Interconnection And Interworking.Client.exe
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Client\obj\Release\Interconnection And Interworking.Client.pdb

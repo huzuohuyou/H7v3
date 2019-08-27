@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interconnection And Interworking.Entity", "Interconnection And Interworking.Entity\Interconnection And Interworking.Entity.csproj", "{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interconnection And Interworking.ORM", "Interconnection And Interworking.ORM\Interconnection And Interworking.ORM.csproj", "{41FC36EE-C19F-43A8-ADB7-649D49014704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interconnection And Interworking.Service", "Interconnection And Interworking.Service\Interconnection And Interworking.Service.csproj", "{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interconnection And Interworking.Web", "Interconnection And Interworking.Web\Interconnection And Interworking.Web.csproj", "{0CB0078C-DAF7-47BE-89DC-5EE3A15965D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interconnection And Interworking.Client", "Interconnection And Interworking.Client\Interconnection And Interworking.Client.csproj", "{AC2783F6-1DE4-4EC7-870F-7577ADC7DA8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FC36EE-C19F-43A8-ADB7-649D49014704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FC36EE-C19F-43A8-ADB7-649D49014704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FC36EE-C19F-43A8-ADB7-649D49014704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FC36EE-C19F-43A8-ADB7-649D49014704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB0078C-DAF7-47BE-89DC-5EE3A15965D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB0078C-DAF7-47BE-89DC-5EE3A15965D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB0078C-DAF7-47BE-89DC-5EE3A15965D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB0078C-DAF7-47BE-89DC-5EE3A15965D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2783F6-1DE4-4EC7-870F-7577ADC7DA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2783F6-1DE4-4EC7-870F-7577ADC7DA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2783F6-1DE4-4EC7-870F-7577ADC7DA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2783F6-1DE4-4EC7-870F-7577ADC7DA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B2373C-3212-4A3A-83E9-5DEDEA031FF6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.30.102.41:8080/tfs/%E5%8C%97%E4%BA%AC%E6%9C%9D%E9%98%B3%E5%8C%BB%E9%99%A2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Interconnection\u0020And\u0020Interworking.Entity\\Interconnection\u0020And\u0020Interworking.Entity.csproj
+		SccProjectName1 = Interconnection\u0020And\u0020Interworking.Entity
+		SccLocalPath1 = Interconnection\u0020And\u0020Interworking.Entity
+		SccProjectUniqueName2 = Interconnection\u0020And\u0020Interworking.ORM\\Interconnection\u0020And\u0020Interworking.ORM.csproj
+		SccProjectName2 = Interconnection\u0020And\u0020Interworking.ORM
+		SccLocalPath2 = Interconnection\u0020And\u0020Interworking.ORM
+		SccProjectUniqueName3 = Interconnection\u0020And\u0020Interworking.Web\\Interconnection\u0020And\u0020Interworking.Web.csproj
+		SccProjectName3 = Interconnection\u0020And\u0020Interworking.Web
+		SccLocalPath3 = Interconnection\u0020And\u0020Interworking.Web
+		SccProjectUniqueName4 = Interconnection\u0020And\u0020Interworking.Service\\Interconnection\u0020And\u0020Interworking.Service.csproj
+		SccProjectName4 = Interconnection\u0020And\u0020Interworking.Service
+		SccLocalPath4 = Interconnection\u0020And\u0020Interworking.Service
+		SccProjectUniqueName5 = Interconnection\u0020And\u0020Interworking.Client\\Interconnection\u0020And\u0020Interworking.Client.csproj
+		SccProjectName5 = Interconnection\u0020And\u0020Interworking.Client
+		SccLocalPath5 = Interconnection\u0020And\u0020Interworking.Client
+	EndGlobalSection
+EndGlobal

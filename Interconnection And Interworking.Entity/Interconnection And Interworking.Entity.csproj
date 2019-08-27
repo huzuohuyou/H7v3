@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A37FC8AF-4E40-491C-80A0-BDAA7CAE2D47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterconnectionAndInterworking.Entity</RootNamespace>
+    <AssemblyName>Interconnection And Interworking.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\bin\Interconnection And Interworking.Entity.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\bin\Interconnection And Interworking.Entity.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Entity">
+      <HintPath>..\..\..\packages\Framework.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Functions Library, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Functions Library.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlSugar, Version=4.9.9.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.4.9.9.7\lib\SqlSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseModel\Element\Additive.cs" />
+    <Compile Include="BaseModel\Element\Additive3.cs" />
+    <Compile Include="BaseModel\Element\asOrganizationPartOf.cs" />
+    <Compile Include="BaseModel\Element\AdministerableMedicine.cs" />
+    <Compile Include="BaseModel\Element\AdministrationRequest.cs" />
+    <Compile Include="BaseModel\Element\Annotation.cs" />
+    <Compile Include="BaseModel\Element\AnnotationAuthor.cs" />
+    <Compile Include="BaseModel\Element\AsAffiliateofOrganization.cs" />
+    <Compile Include="BaseModel\Element\AsContent.cs" />
+    <Compile Include="BaseModel\Element\AsLocatedEntityPartOf.cs" />
+    <Compile Include="BaseModel\Element\AsLocatedEntityPartOfLocation.cs" />
+    <Compile Include="BaseModel\Element\AsOrganizationPartOf2.cs" />
+    <Compile Include="BaseModel\Element\AssignedEntityofOrganization.cs" />
+    <Compile Include="BaseModel\Element\AssignedPerson.cs" />
+    <Compile Include="BaseModel\Element\AssignedPrincipalOrganization.cs" />
+    <Compile Include="BaseModel\Element\ComponentOf1.cs" />
+    <Compile Include="BaseModel\Element\Consumable2.cs" />
+    <Compile Include="BaseModel\Element\ContainerPackagedMedicine.cs" />
+    <Compile Include="BaseModel\Element\Desc.cs" />
+    <Compile Include="BaseModel\Element\DoseCheckQuantity.cs" />
+    <Compile Include="BaseModel\Element\Encounter.cs" />
+    <Compile Include="BaseModel\Element\EncounterSubject.cs" />
+    <Compile Include="BaseModel\Element\EncounterSubjectPatient.cs" />
+    <Compile Include="BaseModel\Element\Goal.cs" />
+    <Compile Include="BaseModel\Element\LocationofOrder.cs" />
+    <Compile Include="BaseModel\Element\Medication1.cs" />
+    <Compile Include="BaseModel\Element\Observation.cs" />
+    <Compile Include="BaseModel\Element\ObservationEventCriterion.cs" />
+    <Compile Include="BaseModel\Element\ObservationRequest.cs" />
+    <Compile Include="BaseModel\Element\Patient7_2.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BaseModel\Element\PriorRegisteredRole.cs" />
+    <Compile Include="BaseModel\Element\PriorRegistration.cs" />
+    <Compile Include="BaseModel\Element\ProductOf.cs" />
+    <Compile Include="BaseModel\Element\QueryByParameterPayloadofOrder.cs" />
+    <Compile Include="BaseModel\Element\Reason.cs" />
+    <Compile Include="BaseModel\Element\RecordTarget.cs" />
+    <Compile Include="BaseModel\Element\RecordTargetPatient.cs" />
+    <Compile Include="BaseModel\Element\RegistrationSubject1.cs" />
+    <Compile Include="BaseModel\Element\ReplacementOf.cs" />
+    <Compile Include="BaseModel\Element\Scoper2.cs" />
+    <Compile Include="BaseModel\Element\ServiceDeliveryLocation.cs" />
+    <Compile Include="BaseModel\Element\ServiceDeliveryLocationLocation.cs" />
+    <Compile Include="BaseModel\Element\ServiceProviderOrganization.cs" />
+    <Compile Include="BaseModel\Element\Specimen.cs" />
+    <Compile Include="BaseModel\Element\SpecimenNatural.cs" />
+    <Compile Include="BaseModel\Element\SpecimenProcessStep.cs" />
+    <Compile Include="BaseModel\Element\SpecimenSpecimen.cs" />
+    <Compile Include="BaseModel\Element\SubjectOf6.cs" />
+    <Compile Include="BaseModel\Element\SubstanceAdministrationRequestAuthor.cs" />
+    <Compile Include="BaseModel\Element\Verifier.cs" />
+    <Compile Include="BaseModel\Element\WholeOrganization.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ContextConductionIndAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\TypeContextConductionIndAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\TypeOperatorAttr.cs" />
+    <Compile Include="DBModes\IAI_DICT.cs" />
+    <Compile Include="DBModes\IAI_MEDICAL_REGISTRATION.cs" />
+    <Compile Include="DBModes\IAI_OBSERVATION.cs" />
+    <Compile Include="DBModes\IAI_ORDER.cs" />
+    <Compile Include="DBModes\IAI_ORGANIZATION.cs" />
+    <Compile Include="DBModes\IAI_PATIENT.cs" />
+    <Compile Include="DBModes\IAI_PROVIDER.cs" />
+    <Compile Include="DBModes\TWBAS_PASS.cs" />
+    <Compile Include="DBModes\TWBAS_PATIENT.cs" />
+    <Compile Include="DTOs\7.10\Request.cs" />
+    <Compile Include="DTOs\7.10\Response.cs" />
+    <Compile Include="DTOs\7.14\Request.cs" />
+    <Compile Include="DTOs\7.14\Response.cs" />
+    <Compile Include="DTOs\7.15\Request.cs" />
+    <Compile Include="DTOs\7.15\Response.cs" />
+    <Compile Include="DTOs\7.1\author.cs" />
+    <Compile Include="DTOs\7.1\Failure.cs" />
+    <Compile Include="DTOs\7.1\IPatient.cs" />
+    <Compile Include="DTOs\7.1\Request.cs" />
+    <Compile Include="DTOs\7.1\registrationRequest.cs" />
+    <Compile Include="DTOs\7.1\statusCode.cs" />
+    <Compile Include="DTOs\7.1\subject.cs" />
+    <Compile Include="DTOs\7.1\subject1.cs" />
+    <Compile Include="DTOs\7.18_20_22\Response.cs" />
+    <Compile Include="BaseModel\Element\QueryByParameterPayload.cs" />
+    <Compile Include="BaseModel\Element\ValueSemanticsText.cs" />
+    <Compile Include="BaseModel\Element\Author.cs" />
+    <Compile Include="BaseModel\BaseEntity.cs" />
+    <Compile Include="BaseModel\BaseResponse.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BaseModel\Element\AddrState.cs" />
+    <Compile Include="BaseModel\Element\AffiliatedPrincipalOrganization.cs" />
+    <Compile Include="BaseModel\Element\AsAffiliate.cs" />
+    <Compile Include="BaseModel\Element\AsEmployee.cs" />
+    <Compile Include="BaseModel\Element\AsOtherIDs.cs" />
+    <Compile Include="BaseModel\Element\AssignedEntity.cs" />
+    <Compile Include="BaseModel\Element\BeneficiarywithClassCode.cs" />
+    <Compile Include="BaseModel\Element\BeneficiarywithTypeCode.cs" />
+    <Compile Include="BaseModel\Element\Birthplace.cs" />
+    <Compile Include="BaseModel\Element\ClassCode.cs" />
+    <Compile Include="BaseModel\Element\Code.cs" />
+    <Compile Include="BaseModel\Element\ContactParty.cs" />
+    <Compile Include="BaseModel\Element\CoverageRecord.cs" />
+    <Compile Include="BaseModel\Element\CoveredPartyOf.cs" />
+    <Compile Include="BaseModel\Element\Custodian.cs" />
+    <Compile Include="BaseModel\Element\DischargeDispositionCode.cs" />
+    <Compile Include="BaseModel\Element\EffectiveTime.cs" />
+    <Compile Include="BaseModel\Element\EffectiveTimewithLowHigh.cs" />
+    <Compile Include="BaseModel\Element\EmployerOrganization.cs" />
+    <Compile Include="BaseModel\Element\HealthCarePrincipalPerson.cs" />
+    <Compile Include="BaseModel\Element\HealthCareProvider.cs" />
+    <Compile Include="BaseModel\Element\IDwithCode.cs" />
+    <Compile Include="BaseModel\Element\Name.cs" />
+    <Compile Include="BaseModel\Element\PatientPerson.cs" />
+    <Compile Include="BaseModel\Element\PatientPersonAddr.cs" />
+    <Compile Include="BaseModel\Element\PersonalRelationship.cs" />
+    <Compile Include="BaseModel\Element\ProviderOrganization.cs" />
+    <Compile Include="BaseModel\Element\QueryAck.cs" />
+    <Compile Include="BaseModel\Element\QueryMatchObservation.cs" />
+    <Compile Include="BaseModel\Element\RelationshipHolder1.cs" />
+    <Compile Include="BaseModel\Element\RepresentedOrganization.cs" />
+    <Compile Include="BaseModel\Element\RootExtension.cs" />
+    <Compile Include="BaseModel\Element\ScopingOrganization.cs" />
+    <Compile Include="BaseModel\Element\StatusCode.cs" />
+    <Compile Include="BaseModel\Element\StreetAddressLine.cs" />
+    <Compile Include="BaseModel\Element\SubjectOf1.cs" />
+    <Compile Include="BaseModel\Element\Value.cs" />
+    <Compile Include="BaseModel\Element\ValueText.cs" />
+    <Compile Include="BaseModel\Element\TypeUnitValue.cs" />
+    <Compile Include="BaseModel\Element\ValuewithCodeSystemDisplayName.cs" />
+    <Compile Include="BaseModel\Element\ValuewithRootExtension.cs" />
+    <Compile Include="BaseModel\Element\ValuewithCode.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ClassCodeAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ClassDeterminerAttr.cs" />
+    <Compile Include="BaseModel\Element\CodeSystem.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\CodeAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\CodeSystemDisplayNameAttr.cs" />
+    <Compile Include="BaseModel\Element\Location.cs" />
+    <Compile Include="BaseModel\Element\Person.cs" />
+    <Compile Include="BaseModel\Element\ReasonCode.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ClassMoodAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\RootExtensionAttr.cs" />
+    <Compile Include="BaseModel\Element\Time.cs" />
+    <Compile Include="BaseModel\Element\Device.cs" />
+    <Compile Include="BaseModel\Element\IDwithRootExtension.cs" />
+    <Compile Include="BaseModel\Element\SendReceiver.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\TypeContextControlAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\UseAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ValueAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ValueTypeAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ValueTextUseAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\TypeCodeAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\TypeUnitValueAttr.cs" />
+    <Compile Include="BaseModel\Element\XmlAttribute\ValueUseAttr.cs" />
+    <Compile Include="BaseModel\IBaseEntity.cs" />
+    <Compile Include="BaseModel\Element\Telecom.cs" />
+    <Compile Include="BaseModel\Element\ValueType.cs" />
+    <Compile Include="DTOs\7.19_21_23\Response.cs" />
+    <Compile Include="DTOs\7.18_20_22\Request22.cs" />
+    <Compile Include="DTOs\7.18_20_22\Request20.cs" />
+    <Compile Include="DTOs\7.19_21_23\Request.cs" />
+    <Compile Include="BaseModel\BaseRequest.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BaseModel\IContent.cs" />
+    <Compile Include="DTOs\7.18_20_22\Request18.cs" />
+    <Compile Include="DTOs\7.1\Response.cs" />
+    <Compile Include="DTOs\7.2\Failure.cs" />
+    <Compile Include="DTOs\7.2\Request.cs" />
+    <Compile Include="DTOs\7.2\Response.cs" />
+    <Compile Include="DTOs\7.3\Failure.cs" />
+    <Compile Include="DTOs\7.3\Request.cs" />
+    <Compile Include="DTOs\7.3\Response.cs" />
+    <Compile Include="DTOs\7.4\Request.cs" />
+    <Compile Include="DTOs\7.4\Response.cs" />
+    <Compile Include="DTOs\7.5\Request.cs" />
+    <Compile Include="DTOs\7.5\Response.cs" />
+    <Compile Include="DTOs\7.6\Request.cs" />
+    <Compile Include="DTOs\7.6\Response.cs" />
+    <Compile Include="DTOs\7.7\Request.cs" />
+    <Compile Include="DTOs\7.7\Response.cs" />
+    <Compile Include="DTOs\7.8\Request.cs" />
+    <Compile Include="DTOs\7.8\Response.cs" />
+    <Compile Include="DTOs\7.9\Request.cs" />
+    <Compile Include="DTOs\7.9\Response.cs" />
+    <Compile Include="DTOs\Common\Acknowledgement.cs" />
+    <Compile Include="Enums\EncounterEventTypeCode.cs" />
+    <Compile Include="MessageModel\MCCI_IN000002UV01.cs" />
+    <Compile Include="MessageModel\POOR_IN200901UV.cs" />
+    <Compile Include="MessageModel\PRPA_IN201304UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201305UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201306UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201312UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201313UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201314UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201315UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN201316UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN401001UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN402001UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN402003UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN900300UV02.cs" />
+    <Compile Include="MessageModel\PRPA_IN900350UV02.cs" />
+    <Compile Include="MessageModel\PRPM_IN301010UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN301011UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN303010UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN303011UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN306010UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN306011UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN401030UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN401031UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN403011UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN403010UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN406010UV01.cs" />
+    <Compile Include="MessageModel\PRPM_IN406110UV01.cs" />
+    <Compile Include="MessageModel\QUMT_IN020030PL.cs" />
+    <Compile Include="MessageModel\QUMT_IN020040PL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MessageModel\PRPA_IN201311UV02.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StringUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="平台服务测试XML-通用\EMR-PL-01新增个人身份注册-T01 - 01 - 副本.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-01新增个人身份注册-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-01新增个人身份注册-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-01新增个人身份注册-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-02个人信息更新-F01-更改了患者ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-02个人信息更新-T01-更新患者电话号码 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-02个人信息更新-T01-更新患者电话号码 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-02个人信息更新-T01-更新患者电话号码 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-02个人信息更新-T01-更新患者电话号码.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-03个人身份合并-F01-合并的患者不存在.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-03个人身份合并-T01-1注册患者到平台.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-03个人身份合并-T01-2合并请求-每次测试时要被合并患者ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-04个人基本信息查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-04个人基本信息查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-04个人基本信息查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-04个人基本信息查询-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-05新增医护人员注册-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-05新增医护人员注册-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-05新增医护人员注册-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-06医护人员信息更新-F01-更改了医护人员ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-06医护人员信息更新-T01-更新姓名、身份证号.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-07医护人员信息查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-07医护人员信息查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-07医护人员信息查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-08新增医疗卫生机构（科室）注册-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-08新增医疗卫生机构（科室）注册-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-08新增医疗卫生机构（科室）注册-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-09医疗卫生机构（科室）信息更新-F01-更改了科室ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-09医疗卫生机构（科室）信息更新-T01-科室类别、科室名称、上级科室、地址等变更.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-10医疗卫生机构（科室）信息查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-10医疗卫生机构（科室）信息查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-10医疗卫生机构（科室）信息查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-11电子病历文档注册-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-12电子病历文档检索-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-13电子病历文档调阅-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-14医嘱接收-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-14医嘱接收-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-14医嘱接收-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-15医嘱查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-15医嘱查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-15医嘱查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-16申请单接收-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-16申请单接收-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-16申请单接收-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-17申请单查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-17申请单查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-17申请单查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-18医疗卫生人员注册服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-19医疗卫生人员更新服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-20医疗卫生机构注册服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-21医疗卫生机构更新服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-22调用区域个人身份注册服务-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-23调用区域个人基本信息查询服务-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-24病历文档上传服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-25病历数据检索服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-26病历数据查询服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-27门诊就诊登记服务-F01-患者尚未注册 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-27门诊就诊登记服务-F01-患者尚未注册 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-27门诊就诊登记服务-F01-患者尚未注册 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-27门诊就诊登记服务-T01-每次测试时要修改注册时返回的ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-28门诊就诊查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-28门诊就诊查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-28门诊就诊查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-29住院就诊登记服务-F01-患者尚未注册 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-29住院就诊登记服务-F01-患者尚未注册 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-29住院就诊登记服务-F01-患者尚未注册 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-29住院就诊登记服务-T01每次测试时要修改注册时返回的ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-30住院就诊查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-30住院就诊查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-30住院就诊查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-31出院登记服务-F01-患者尚未注册 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-31出院登记服务-F01-患者尚未注册 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-31出院登记服务-F01-患者尚未注册 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-31出院登记服务-T01每次测试时要修改注册时返回的ID.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-32出院信息查询-T01 - 01.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-32出院信息查询-T01 - 02.xml" />
+    <Content Include="平台服务测试XML-通用\EMR-PL-32出院信息查询-T01 - 03.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-18医疗卫生人员注册服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-19医疗卫生人员更新服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-20医疗卫生机构注册服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-21医疗卫生机构更新服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-22调用区域个人身份注册服务-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-23调用区域个人基本信息查询服务-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-24病历文档上传服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-25病历数据检索服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\EMR-PL-26病历数据查询服务调用-T01.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\sendsoap.htm" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\【基础服务】个人基本信息查询请求-调用区域平台-缺少必填项.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\【基础服务】个人基本信息查询请求-调用区域平台.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\【基础服务】新增个人服务请求-调用区域平台-缺少必填项.xml" />
+    <Content Include="平台服务测试XML-通用\调用区域平台服务测试工具+XM文件\【基础服务】新增个人服务请求-调用区域平台.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

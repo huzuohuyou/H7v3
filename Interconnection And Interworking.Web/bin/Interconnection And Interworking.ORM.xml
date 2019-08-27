@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interconnection And Interworking.ORM</name>
+    </assembly>
+    <members>
+        <member name="T:InterconnectionAndInterworking.ORM.BaseManager`4">
+            <summary>
+            ORM基础服务定义
+            </summary>
+            <typeparam name="Titem"></typeparam>
+            <typeparam name="Tinsert"></typeparam>
+            <typeparam name="Tupdate"></typeparam>
+            <typeparam name="Tquery"></typeparam>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_DICT_MANAGER">
+            <summary>
+            字典ORM
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_MEDICAL_REGISTRATION_OUT_MANAGER">
+            <summary>
+            门诊操作orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_MEDICAL_REGISTRATION_IN_MANAGER">
+            <summary>
+            住院操作orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_MEDICAL_REGISTRATION_DIS_MANAGER">
+            <summary>
+            出院操作orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_OBSERVATION_MANAGER">
+            <summary>
+            申请单orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_ORDER_MANAGER">
+            <summary>
+            医嘱orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_ORGANIZATION_MANAGER">
+            <summary>
+            医疗结构rom
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_PATIENT_MANAGEER">
+            <summary>
+            患者操作orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IAI_PROVIDER_MANAGER">
+            <summary>
+            医护人员orm
+            </summary>
+        </member>
+        <member name="T:InterconnectionAndInterworking.ORM.IDB_MANAGER`5">
+            <summary>
+            服务规范定义
+            </summary>
+            <typeparam name="Tdb">数据库实体泛型</typeparam>
+            <typeparam name="Tadd">新增实体泛型</typeparam>
+            <typeparam name="Tupdate">修改实体泛型</typeparam>
+            <typeparam name="Tquery">查询实体泛型</typeparam>
+            <typeparam name="Tdelete">删除实体泛型</typeparam>
+        </member>
+    </members>
+</doc>

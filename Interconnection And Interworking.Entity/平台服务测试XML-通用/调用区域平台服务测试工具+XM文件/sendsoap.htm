@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>医院信息平台调用区域平台服务接口测试</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script language="JavaScript">
+
+function doSoap(){
+	var resXml = postsoap(document.all.serviceurl.value,document.all.methodName.value,document.all.reqXml.value);
+	resXml = decode(resXml);
+	document.all.resXml.value=resXml;
+}
+
+function postsoap(serviceurl,methodName,reqXml){
+	var strSOAPReq="<SOAP-ENV:Envelope xmlns:SOAP-ENV='http://www.w3.org/2003/05/soap-envelope' xmlns:SOAP-ENC='http://www.w3.org/2003/05/soap-encoding' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'><SOAP-ENV:Body><m:HIPMessageServer xmlns:m='urn:hl7-org:v3'><m:action>"+methodName+"</m:action><m:message><![CDATA["+reqXml+"]]></m:message></m:HIPMessageServer></SOAP-ENV:Body></SOAP-ENV:Envelope>";
+	//alert(strSOAPReq);
+	var oReq = new ActiveXObject("MSXML2.XMLHTTP");
+	oReq.open("POST",serviceurl,false);
+	oReq.setRequestHeader("Content-Length",strSOAPReq.length); 
+	oReq.setRequestHeader("CONTENT-TYPE","application/soap+xml; action=urn:hl7-org:v3/HPBSApp.BS.HIPMessageServer.HIPMessageServer; Charset=UTF-8");
+	oReq.setRequestHeader("SOAPAction","urn:hl7-org:v3/HPBSApp.BS.HIPMessageServer.HIPMessageServer");
+	oReq.send(strSOAPReq);
+	return oReq.responseText;
+}
+
+function encode(str)
+{
+	var reg = /<|>/g;
+	str = str.replace(reg,function($1){
+		if($1=='<'){
+			return '&lt;';
+		}else{
+			return '&gt;';
+		}
+	});
+	str = str.replace(/"/g,'&quot');
+	return str;
+}
+
+function decode(str)
+{
+	var reg = /&lt;|&gt;/g;
+	str = str.replace(reg,function($1){
+		if($1=='&lt;'){
+			return '<';
+		}else{
+			return '>';
+		}
+	});
+	str = str.replace(/&quot/g,'"');
+	return str;
+}
+</script>
+
+</HEAD>
+
+<BODY>
+<h2 align="center">医院信息平台调用区域平台服务接口测试</h2>
+<p>
+  <label>
+    服务地址：
+    <input type="text" name="serviceurl" id="serviceurl" value="http://172.16.23.188/csp/htp/HPBSApp.BS.HIPMessageServer.cls" size="100">
+  </label>
+</p>
+<p>
+  <label>
+    方 法 名action：
+      <input type="text" name="methodName" id="methodName" value="PatientRegistryAddRequest" size="100">
+  </label>
+</p>
+<p>
+  请求消息message:
+    <textarea name="reqXml" id="reqXml" rows="8" style="width:80%">请将请求消息粘贴在此</textarea>
+</p>
+<p align="center">
+  <input type="button" onClick="doSoap()" value=" 执  行 ">
+</p>
+<p>
+  <label>
+    返回消息：
+      <textarea name="resXml" id="resXml" rows="12" style="width:80%"></textarea>
+  </label>
+</p>
+</BODY>
+</HTML>

@@ -1,0 +1,96 @@
+--------------------10:14:13.2672948--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------10:14:13.6935671--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------10:24:41.9644580--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------10:26:57.2185798--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010379
+--------------------10:26:57.5205077--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------10:31:58.7078282--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010372
+--------------------10:31:58.9880236--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------10:39:01.3883848--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------10:54:47.0187149--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------10:55:27.7327197--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010379
+--------------------10:56:11.5653373--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010372
+--------------------14:20:56.8979739--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 000959
+--------------------14:20:57.6531704--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:25:50.6883112--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 001414
+--------------------14:25:51.1469087--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:35:05.1497689--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 001927
+--------------------14:35:05.5730561--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:36:29.4523299--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 000959
+--------------------14:38:15.0672157--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 004886
+--------------------14:38:15.3693718--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:38:34.1192362--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 001341
+--------------------14:38:34.3931535--------------------
+Select * From IAI_PROVIDER Where 1=2

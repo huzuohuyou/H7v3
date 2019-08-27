@@ -1,0 +1,115 @@
+--------------------11:27:49.6889988--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:27:50.3630811--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------11:28:06.5062171--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 0IOEIEKA
+(Int32)     Original_medical_type = 0
+--------------------11:28:06.9543893--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------11:28:28.6206384--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 0IOEIEKA
+(Int32)     Original_medical_type = 0
+--------------------11:34:39.9708456--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:37:45.2365075--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:38:15.5643833--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:39:39.5251679--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:39:46.5230934--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:39:46.8306370--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------11:40:11.5866367--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 0IOEIEKA
+(Int32)     Original_medical_type = 0
+--------------------11:40:11.8268758--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------11:40:24.1413173--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 909IKLAOE
+(Int32)     Original_medical_type = 0
+--------------------11:40:24.3956314--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------11:40:40.2684331--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------11:40:54.7586635--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 0IOEIEKA
+(Int32)     Original_medical_type = 0
+--------------------11:41:06.6680632--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 909IKLAOE
+(Int32)     Original_medical_type = 0

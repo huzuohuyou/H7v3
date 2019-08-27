@@ -1,0 +1,6 @@
+--------------------16:11:44.0573516--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374

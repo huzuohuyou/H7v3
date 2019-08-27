@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interconnection And Interworking.Service</name>
+    </assembly>
+    <members>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryDuplicatesResolved.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryDuplicatesResolved.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.AddProviderRequest">
+            <summary>
+            新增医护人员
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddProviderRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddProviderRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddProviderRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.ProviderDetailsQuery">
+            <summary>
+            医护人员信息查询
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ProviderDetailsQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ProviderDetailsQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ProviderDetailsQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.UpdateProviderRequest">
+            <summary>
+            医护人员信息更新
+            </summary>                             
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateProviderRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateProviderRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateProviderRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.AddOrganizationRequest">
+            <summary>
+            新增医疗卫生机构（科室）注册服务 ORIGINAL_TEXT
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddOrganizationRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddOrganizationRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddOrganizationRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.OrganizationDetailQuery">
+            <summary>
+            医疗卫生机构（科室）信息查询服务
+            </summary>                                                   PRPM_IN406110UV01
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.OrganizationDetailQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.OrganizationDetailQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.OrganizationDetailQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.UpdateOrganizationRequest">
+            <summary>
+            医疗卫生机构（科室）信息更新服务
+            </summary>                                  PRPM_IN403010UV01 
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateOrganizationRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateOrganizationRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.UpdateOrganizationRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.ActOrderQuery">
+            <summary>
+            医嘱查询
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActOrderQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActOrderQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActOrderQuery.CleanXml(System.String)">
+            <summary>
+            清理组装xml,有点low
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActOrderQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.AddActOrder">
+            <summary>
+            医嘱接收
+            </summary>                    POOR_IN200901UV
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActOrder.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActOrder.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActOrder.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActRequestQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActRequestQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.ActRequestQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AddActRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.AmbulatoryEncounterStarted">
+            <summary>
+            * Description: 门诊就诊注册服务
+            </summary>                                   
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AmbulatoryEncounterStarted.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AmbulatoryEncounterStarted.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AmbulatoryEncounterStarted.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.FindAmbulatoryEncountersQuery">
+            <summary>
+            * Author: 吴海龙
+            * CreatedTime: 2019/3/29 16:18:00
+            * Description: 门诊就诊查询服务
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindAmbulatoryEncountersQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindAmbulatoryEncountersQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindAmbulatoryEncountersQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.FindEncountersStartedQuery">
+            <summary>
+            住院查询
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersStartedQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersStartedQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersStartedQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.InpatientEncounterStarted">
+            <summary>
+            住院登记
+            </summary>                                  PRPA_IN402001UV02
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterStarted.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterStarted.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterStarted.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.FindEncountersCompletedQuery">
+            <summary>
+            出院信息查询
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersCompletedQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersCompletedQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.FindEncountersCompletedQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.InpatientEncounterCompleted">
+            <summary>
+            出院登记
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterCompleted.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterCompleted.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.InpatientEncounterCompleted.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.AbsHisService`3">
+            <summary>
+            互联互通流程控制父类
+            泛型 的是返回类型 Response
+            </summary>
+        </member>
+        <member name="P:InterconnectionAndInterworking.Service.AbsHisService`3.Success">
+            <summary>
+            判断是否操作成功
+            </summary>
+        </member>
+        <member name="P:InterconnectionAndInterworking.Service.AbsHisService`3.xmlSb">
+            <summary>
+            请求响应xmlsb
+            </summary>
+        </member>
+        <member name="P:InterconnectionAndInterworking.Service.AbsHisService`3.requestEntity">
+            <summary>
+            请求对象
+            </summary>
+        </member>
+        <member name="P:InterconnectionAndInterworking.Service.AbsHisService`3.responseEntity">
+            <summary>
+            响应对象
+            </summary>
+        </member>
+        <member name="P:InterconnectionAndInterworking.Service.AbsHisService`3.message">
+            <summary>
+            异常信息存储字符串
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.DoWork(System.String)">
+            <summary>
+            流程总体控制
+            </summary>
+            <param name="xml"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.ResponseFactoryProxy">
+            <summary>
+            对象转xml
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.CleanXml(System.String)">
+            <summary>
+            清理组装xml,有点low
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.RequestFactory">
+            <summary>
+            处理xml信息头,生成请求信息对应实体
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.ProcessInfo">
+            <summary>
+            处理信息，包括业务逻辑 存库 查库
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.ResponseFactory">
+            <summary>
+            仅仅组装实体相应结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.FailureFactory">
+            <summary>
+            抽象失败对象工厂
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.XmlResult">
+            <summary>
+            响应xml实体序列化字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.Serializer(`1)">
+            <summary>
+            成功对象序列化
+            </summary>
+            <param name="obj">响应对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.SerializerFailure(`2)">
+            <summary>
+            失败对象序列化
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.AbsHisService`3.ConvertXmlToString(System.Xml.XmlDocument)">
+            <summary>
+            xml文档转字符串
+            </summary>
+            <param name="xmlDoc">xml 文档</param>
+            <returns></returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.IHisService`1">
+            <summary>
+            互联互通服务流程定义
+            </summary>
+            <typeparam name="Response"></typeparam>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.IHisService`1.DoWork(System.String)">
+            <summary>
+            任务入口
+            </summary>
+            <param name="xml"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.IHisService`1.RequestFactory">
+            <summary>
+            请求工厂
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.IHisService`1.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.IHisService`1.ResponseFactory">
+            <summary>
+            响应工厂
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.PatientRegistryAddRequest">
+            <summary>
+            新增个人身份注册
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryAddRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryAddRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryAddRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.PatientRegistryFindCandidatesQuery">
+            <summary>
+            个人基本信息查询  ENCOUNTEREVENT 
+            </summary>                                           
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryFindCandidatesQuery.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryFindCandidatesQuery.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryFindCandidatesQuery.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+        <member name="T:InterconnectionAndInterworking.Service.PatientRegistryReviseRequest">
+            <summary>
+            个人信息更新
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryReviseRequest.ProcessInfo">
+            <summary>
+            数据库交互
+            </summary>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryReviseRequest.ResponseFactory">
+            <summary>
+            成功响应
+            </summary>
+            <returns>成功响应泛型</returns>
+        </member>
+        <member name="M:InterconnectionAndInterworking.Service.PatientRegistryReviseRequest.FailureFactory">
+            <summary>
+            失败响应
+            </summary>
+            <returns>失败响应泛型</returns>
+        </member>
+    </members>
+</doc>

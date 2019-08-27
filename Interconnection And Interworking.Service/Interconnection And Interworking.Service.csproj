@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15724A1D-5A3D-4134-87A5-B1AE067B8DCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterconnectionAndInterworking.Service</RootNamespace>
+    <AssemblyName>Interconnection And Interworking.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\bin\Interconnection And Interworking.Service.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\bin\Interconnection And Interworking.Service.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Entity">
+      <HintPath>..\..\..\packages\Framework.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.ORM, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Framework.ORM.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Service, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Framework.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="Functions Library">
+      <HintPath>..\..\..\packages\Functions Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.4.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\oracle\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="5.01_02_03_04\PatientRegistryDuplicatesResolved.cs" />
+    <Compile Include="5.05_06_07\AddProviderRequest.cs" />
+    <Compile Include="5.05_06_07\ProviderDetailsQuery.cs" />
+    <Compile Include="5.05_06_07\UpdateProviderReques.cs" />
+    <Compile Include="5.08_09_10\AddOrganizationRequest.cs" />
+    <Compile Include="5.08_09_10\OrganizationDetailQuery.cs" />
+    <Compile Include="5.08_09_10\UpdateOrganizationRequest.cs" />
+    <Compile Include="5.14_15\ActOrderQuery.cs" />
+    <Compile Include="5.14_15\AddActOrder.cs" />
+    <Compile Include="5.16_17\ActRequestQuery.cs" />
+    <Compile Include="5.16_17\AddActRequest.cs" />
+    <Compile Include="5.27_28\AmbulatoryEncounterStarted.cs" />
+    <Compile Include="5.27_28\FindAmbulatoryEncountersQuery.cs" />
+    <Compile Include="5.29_30\FindEncountersStartedQuery.cs" />
+    <Compile Include="5.29_30\InpatientEncounterStarted.cs" />
+    <Compile Include="5.31_32\FindEncountersCompletedQuery.cs" />
+    <Compile Include="5.31_32\InpatientEncounterCompleted.cs" />
+    <Compile Include="AbsHisService.cs" />
+    <Compile Include="Connected Services\HIP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="IHisService.cs" />
+    <Compile Include="5.01_02_03_04\PatientRegistryAddRequest.cs" />
+    <Compile Include="5.01_02_03_04\PatientRegistryFindCandidatesQuery.cs" />
+    <Compile Include="5.01_02_03_04\PatientRegistryReviseRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interconnection And Interworking.Entity\Interconnection And Interworking.Entity.csproj">
+      <Project>{a37fc8af-4e40-491c-80a0-bdaa7cae2d47}</Project>
+      <Name>Interconnection And Interworking.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interconnection And Interworking.ORM\Interconnection And Interworking.ORM.csproj">
+      <Project>{41fc36ee-c19f-43a8-adb7-649d49014704}</Project>
+      <Name>Interconnection And Interworking.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Connected Services\HIP\HPBSApp.wsdl" />
+    <None Include="Connected Services\HIP\InterconnectionAndInterworking.Service.HIP.HIPMessageServerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\HIP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HIP\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HIP\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\HIP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

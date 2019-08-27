@@ -1,0 +1,245 @@
+--------------------14:14:46.1129907--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------14:14:46.6385998--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:21:35.4351837--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------14:23:18.0512393--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:27:10.2804765--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:27:54.7313692--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:29:26.3045501--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:31:03.4461808--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:33:47.1221630--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010375
+--------------------14:34:22.6078828--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010379
+--------------------14:34:22.8943742--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:34:34.6832005--------------------
+select count(*) from IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010372
+--------------------14:34:34.9445747--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:34:44.7518031--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010375
+--------------------14:36:36.8279481--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010372
+--------------------14:36:36.8731232--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------14:36:36.8981391--------------------
+Select * From IAI_PATIENT Where 1=2
+--------------------14:40:03.3144651--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 1414
+--------------------14:43:47.4214238--------------------
+Select * From IAI_PATIENT
+Where patient_id = :Original_patient_id
+
+参数值:
+(String)    Original_patient_id = 0000010374
+--------------------14:44:35.9241012--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 000959
+--------------------14:44:36.4031886--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:45:09.7553124--------------------
+select count(*) from IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 000959
+--------------------14:46:41.5721980--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:47:52.3614272--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:49:32.4631009--------------------
+Select * From IAI_PROVIDER Where 1=2
+--------------------14:50:52.8105283--------------------
+Select * From IAI_PROVIDER
+Where healthcareprovider_id = :Original_healthcareprovider_id
+
+参数值:
+(String)    Original_healthcareprovider_id = 000959
+--------------------14:51:35.3957408--------------------
+select count(*) from IAI_ORGANIZATION
+Where organization_id = :Original_organization_id
+
+参数值:
+(String)    Original_organization_id = 000061
+--------------------14:51:35.6753094--------------------
+Select * From IAI_ORGANIZATION Where 1=2
+--------------------14:54:16.3796236--------------------
+select count(*) from IAI_ORGANIZATION
+Where organization_id = :Original_organization_id
+
+参数值:
+(String)    Original_organization_id = 000061
+--------------------14:56:20.7670356--------------------
+select count(*) from IAI_ORGANIZATION
+Where organization_id = :Original_organization_id
+
+参数值:
+(String)    Original_organization_id = 1234567890
+--------------------14:56:21.0662980--------------------
+Select * From IAI_ORGANIZATION Where 1=2
+--------------------15:02:40.2286998--------------------
+Select * From IAI_ORGANIZATION
+Where organization_id = :Original_organization_id
+
+参数值:
+(String)    Original_organization_id = 000061
+--------------------15:04:15.2622915--------------------
+select count(*) from IAI_ORDER
+Where order_id = :Original_order_id
+
+参数值:
+(String)    Original_order_id = OBS00AO09KQ
+--------------------15:04:15.5245905--------------------
+Select * From IAI_ORDER Where 1=2
+--------------------15:09:21.6413718--------------------
+select count(*) from IAI_ORDER
+Where order_id = :Original_order_id
+
+参数值:
+(String)    Original_order_id = OBS00AO09KQ
+--------------------15:10:24.9108068--------------------
+Select * From IAI_ORDER
+Where order_id = :Original_order_id
+
+参数值:
+(String)    Original_order_id = OBS00AO09KQ
+--------------------15:11:10.2103652--------------------
+select count(*) from IAI_OBSERVATION
+Where observation_id = :Original_observation_id
+
+参数值:
+(String)    Original_observation_id = HA20110211LOIE7D65
+--------------------15:11:10.4821763--------------------
+Select * From IAI_OBSERVATION Where 1=2
+--------------------15:11:45.1241502--------------------
+select count(*) from IAI_OBSERVATION
+Where observation_id = :Original_observation_id
+
+参数值:
+(String)    Original_observation_id = HA20110211LOIE7D65
+--------------------15:12:15.3787437--------------------
+Select * From IAI_OBSERVATION
+Where observation_id = :Original_observation_id
+
+参数值:
+(String)    Original_observation_id = HA20110211LOIE7D65
+--------------------15:13:06.0411723--------------------
+select count(*) from IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = MZ_IKE9832AF
+(Int32)     Original_medical_type = 1
+--------------------15:13:06.3621666--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------15:13:32.7181793--------------------
+select count(*) from IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = MZ_IKE9832AF
+(Int32)     Original_medical_type = 1
+--------------------15:14:01.2879438--------------------
+Select * From IAI_MEDICAL_REGISTRATION
+Where medical_type = :Original_medical_type And encounterevent_id = :Original_encounterevent_id
+
+参数值:
+(Int32)     Original_medical_type = 1
+(String)    Original_encounterevent_id = MZ_IKE9832AF
+--------------------15:14:28.8569871--------------------
+select count(*) from IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 9iie9029k
+(Int32)     Original_medical_type = 3
+--------------------15:14:29.1382454--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------15:14:54.1910346--------------------
+select count(*) from IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = 9iie9029k
+(Int32)     Original_medical_type = 3
+--------------------15:15:22.7151648--------------------
+Select * From IAI_MEDICAL_REGISTRATION
+Where medical_type = :Original_medical_type And encounterevent_id = :Original_encounterevent_id
+
+参数值:
+(Int32)     Original_medical_type = 3
+(String)    Original_encounterevent_id = 9iie9029k
+--------------------15:16:00.4407300--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------15:16:00.7559778--------------------
+Select * From IAI_MEDICAL_REGISTRATION Where 1=2
+--------------------15:16:29.0472660--------------------
+Select count(*) From IAI_MEDICAL_REGISTRATION
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------15:17:00.4148032--------------------
+Select      *
+From        IAI_MEDICAL_REGISTRATION
+
+Where encounterevent_id = :Original_encounterevent_id And medical_type = :Original_medical_type
+
+参数值:
+(String)    Original_encounterevent_id = UJIELA893
+(Int32)     Original_medical_type = 0
+--------------------15:24:42.1177597--------------------
+Select * From IAI_PROVIDER Where 1=2

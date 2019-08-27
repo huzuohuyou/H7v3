@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interconnection And Interworking.ORM</name>
+    </assembly>
+    <members>
+        <member name="T:InterconnectionAndInterworking.ORM.IDB_MANAGER`5">
+            <summary>
+            
+            </summary>
+            <typeparam name="DBEntity">数据库实体</typeparam>
+            <typeparam name="AddEntity">新增实体</typeparam>
+            <typeparam name="UpdateEntity">修改实体</typeparam>
+            <typeparam name="QueryEntity">查询实体</typeparam>
+            <typeparam name="DeleteEntity">删除实体</typeparam>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,22 @@
+C:\Codes\EIP 3.0\bin\Interconnection And Interworking.Entity.xml
+C:\Codes\EIP 3.0\bin\Interconnection And Interworking.Entity.dll
+C:\Codes\EIP 3.0\bin\Interconnection And Interworking.Entity.pdb
+C:\Codes\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.dll
+C:\Codes\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.pdb
+C:\Codes\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CoreCompileInputs.cache
+C:\Codes\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CopyComplete
+C:\Codes\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csprojAssemblyReference.cache
+D:\WorkSpace\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CoreCompileInputs.cache
+D:\WorkSpace\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CopyComplete
+D:\WorkSpace\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.dll
+D:\WorkSpace\EIP 3.0\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.pdb
+D:\WorkSpace\EIP 3.0\接口部分\bin\Interconnection And Interworking.Entity.xml
+D:\WorkSpace\EIP 3.0\接口部分\bin\Interconnection And Interworking.Entity.dll
+D:\WorkSpace\EIP 3.0\接口部分\bin\Interconnection And Interworking.Entity.pdb
+D:\WorkSpace\EIP 3.0\bin\Interconnection And Interworking.Entity.xml
+D:\WorkSpace\EIP 3.0\bin\Interconnection And Interworking.Entity.dll
+D:\WorkSpace\EIP 3.0\bin\Interconnection And Interworking.Entity.pdb
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CoreCompileInputs.cache
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.csproj.CopyComplete
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.dll
+D:\WorkSpace\EIP 3.0\接口部分\互联互通\Interconnection And Interworking.Entity\obj\Debug\Interconnection And Interworking.Entity.pdb
